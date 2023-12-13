@@ -17,7 +17,7 @@ class GoogleMapScreen extends StatefulWidget {
 class _GoogleMapScreenState extends State<GoogleMapScreen> {
   late GoogleMapController mapController;
   ValueNotifier<LatLng?> currentLocationNotifier = ValueNotifier<LatLng?>(null);
-  LatLng akijHouseLocation = LatLng(23.848207768277575, 90.25479520273554);
+  LatLng akijHouseLocation = LatLng(23.769580991449885, 90.41034784997267);
   final double radius = 100.0;
 
   @override
